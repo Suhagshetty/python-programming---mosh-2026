@@ -23,3 +23,29 @@ print("Name:- ",name)
 print("Current Age:- ",age )
 print("Monthly salary:- ",salary)
 print("Annual Salary:- ",annualSalary)
+
+# Challenge: Employee Salary & Profile Generator
+
+print("\n ========== EMPLOYEE REPORT ========== \n")
+
+employeeName = str(input("Employee Name:- "))
+employeeId = str(input("Employee ID:- "))
+Age = int(input("Age:- "))
+monthlySalarry = int(input("Monthly Salary:- "))
+Bonus = int(input("Bonus Percentage:- "))
+permanentEmployee = bool(input("Permanent Employee? (yes/no):- "))
+annualSalary = float(monthlySalarry*12)
+bonusAmount = float((Bonus/100)*annualSalary)
+totalComp = float(annualSalary+bonusAmount)
+
+print("\n ========== DATA TYPES ========== \n")
+
+print(type(employeeName))
+print(type(employeeId))
+print(type(Age))
+print(type(monthlySalarry))
+print(type(Bonus))
+print(type(permanentEmployee))
+print(type(annualSalary))
+print(type(bonusAmount))
+print(type(totalComp))
