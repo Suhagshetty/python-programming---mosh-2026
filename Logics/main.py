@@ -19,3 +19,16 @@ else:
     print("Needs some performance")
     
 # NESTED IF STATEMENTS IN PYTHON
+
+age = 23
+hasId = True
+if age>=18:
+    if hasId:
+        print("Entry Allowed")
+    else:
+        print("Id is required")
+else:
+    print("Entry denied")
+    
+#  COMPARISON EXAMPLES
+
