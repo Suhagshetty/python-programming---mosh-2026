@@ -32,3 +32,12 @@ else:
     
 #  COMPARISON EXAMPLES
 
+salary = 45000
+print(salary>30000)
+print(salary<30000)
+print(salary==45000)
+print(salary!=45000)
+
+# LOGICAL OPERATORS
+
+# AND:- BOTH CONDITIONS MUST BE TRUE.
