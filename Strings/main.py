@@ -65,3 +65,15 @@ print(lastName.rstrip())
 # .strip() removes whitespace from both ends.
 # .lstrip() removes whitespace from the left.
 # .rstrip() removes whitespace from the right.
+
+# REPLACING OLD TEXT using .replace(old,new) method
+
+message = "I am learning Java"
+updatedMessage = message.replace("Java","Python")
+print(updatedMessage)
+# I am learning Python
+
+text = "cat cat cat"
+updatedText = text.replace("cat","dog")
+print(updatedText)
+# dog dog dog
