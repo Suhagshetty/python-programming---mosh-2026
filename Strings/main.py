@@ -77,3 +77,47 @@ text = "cat cat cat"
 updatedText = text.replace("cat","dog")
 print(updatedText)
 # dog dog dog
+
+#  SEARCHING INSIDE STRINGS using .find() method
+
+email = "suhagshetty07@gmail.com"
+print(email.find("@"))
+print(email.find("gmail"))
+print(email.find("xyz"))
+
+#  COUNT -> counts the number of occurences in out string
+
+print(email.count("s")) 
+
+# STARTS WITH -> RETURNS TRUE OR FALSE
+
+print(email.startswith("suhag"))
+print(email.startswith("shetty"))
+
+# ENDS WITH -> RETURNS TRUE OR FALSE
+
+print(email.endswith("com")) 
+print(email.endswith("yahoo.com"))
+
+# SPLIT -> .split() seperates string to a list:- by default it splits based on the whitespaces.
+
+skills = "Python Java C++ Javascript"
+result = skills.split()
+print(result)
+# ['Python', 'Java', 'C++', 'Javascript']
+
+# JOINING STRINGS -> .join() method joins strings using a seperator
+
+skills = ["Python","Java","C++","Typescript"]
+print(",".join(skills))
+# Python, Java, TypeScript
+
+
+#  TO CHECK IF A TEXT IS PRESENT IN OUR TEXT OR NOT
+
+email = "suhagshetty07@gmail.com"
+print("@" in email)
+print("yahoo.com" in email)
+#  TRUE IF PRESENT AND FALSE IF NOT PRESENT
+
+# ALL IN ONE EXAMPLE
