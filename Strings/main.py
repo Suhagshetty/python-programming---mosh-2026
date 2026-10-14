@@ -121,3 +121,21 @@ print("yahoo.com" in email)
 #  TRUE IF PRESENT AND FALSE IF NOT PRESENT
 
 # ALL IN ONE EXAMPLE
+
+employeeName = input("Enter your employee name:- ").strip().title()
+employeeId = input("Enter your employee Id;- ").strip()
+company = input("Enter your company name:- ").strip()
+salary = float(input("Enter monthly salary:- "))
+bonus = float(input("Enter bonus percentage:- "))
+annualSalary = salary*12
+annualBonus = annualSalary*(bonus/100)
+totalCompensation = annualSalary + annualBonus
+
+print("\n========== EMPLOYEE REPORT ==========")
+
+print(f"Employee:- {employeeName}")
+print(f"Employee ID:- {employeeId}")
+print(f"Company:- {company}")
+print(f"Annual Salary:- {annualSalary}")
+print(f"Annual Bonus:- {annualBonus}")
+print(f"Total Compensation:- {totalCompensation}")
