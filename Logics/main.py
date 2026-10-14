@@ -41,3 +41,26 @@ print(salary!=45000)
 # LOGICAL OPERATORS
 
 # AND:- BOTH CONDITIONS MUST BE TRUE.
+
+age = 23
+hasId = True
+if age>=18 and hasId:
+    print("Entry Allowed")
+else:
+    print("Denied")
+
+#  OR:- atleast one condition must be true.
+
+day = "saturday"
+if day=="saturday" or day=="sunday":
+    print("Its a weekend")
+else:
+    print("weekday")
+    
+#  NOT:- reverses a boolean result
+
+isBlocked = False
+print( not isBlocked)
+#  TRUE
+
+# WEIGHT CONVERTER PROGRAM
