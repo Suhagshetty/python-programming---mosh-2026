@@ -167,3 +167,21 @@ else:
     print(f"Name starts with S: {employee_name.startswith('S')}")
 
     print("\n========== REPORT COMPLETE ==========")
+
+#  WHILE LOOPS IN PYTHON
+
+count = 1
+while count <= 5:
+    print(count)
+    count+=1
+print("Loop Finished")
+
+#  EXAMPLE 2:-
+
+createPassword = "python123"
+attempt = ""
+while attempt != createPassword:
+    attempt = input("Enter the passsword:")
+print("access granted")
+
+# 
