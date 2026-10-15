@@ -218,5 +218,33 @@ for k in range(2,12,2):
     
 # Realistic example: processing employee salaries
 
+salaries = [45000,52000,38000,61000,47000]
+totalSalary = 0
+for salary in salaries:
+    totalSalary += salary
+averageSalary = totalSalary / len(salaries)
+print(f"Total Salary:- {totalSalary}")
+print(f"Average Salary:- {averageSalary}")
 
+# MUTLIPLICATION TABLE PROGRAM
 
+for number in range(1,6):
+    print(f"\n Multiplication table for {number}")
+    
+    for mutliplier in range (1,6):
+        result = number*mutliplier
+        print(f"{number} x {mutliplier} = {result}")
+        
+# A realistic company sales report
+
+regions = {
+    "Bengaluru":[120,90,150,80],
+    "Mumbai":[100,110,130,95],
+    "Delhi":[140,85,160,105]
+}
+products = ["LAPTOP","MOUSE","KEYBOARD","MONITOR"]
+
+for region, sales in regions.items():
+    print(f"\n sales report: {region}")
+    for i in range(len(products)):
+        print(f"{products[i]}:{sales[i]}units")
