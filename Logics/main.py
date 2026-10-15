@@ -198,3 +198,25 @@ while guessCount < guessLimit:
         break
     else:
         print("TRY AGAIN")
+
+print("Game Over")
+
+# FOR LOOPS IN PYTHON:- a for loop is used when you want to processs each time in a sequence.
+
+# range(stop):- Starts at 0 and stops before the specified number.
+for i in range (5):
+    print(i)
+    
+# 2. range(start, stop)
+for j in range(2,6):
+    print(j)
+    
+# 3. range(start, stop, step)
+for k in range(2,12,2):
+    print(k)
+    
+    
+# Realistic example: processing employee salaries
+
+
+
